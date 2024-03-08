@@ -1,0 +1,9 @@
+[constants]
+serialID = '16c0:27db'
+location = 'Manual_Lab'
+brokerIP = 'mqtt.docker.local'
+
+[docker]
+url = "http://localhost:1883"
+frequency_record_seconds = 1
+## Token for authentication.

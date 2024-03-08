@@ -1,0 +1,28 @@
+import qrcode
+import json, os
+import zlib
+
+# Create a QR code object with a larger size and higher error correction
+qr = qrcode.QRCode(version=3, box_size=10, border=10, error_correction=qrcode.constants.ERROR_CORRECT_H)
+ 
+script_dir = os.path.dirname(__file__) #<-- absolute dir the script is in
+rel_path = "/Submodel.json"
+abs_file_path = script_dir + rel_path
+with open(abs_file_path) as json_file:
+    data_example = json.load(json_file)
+
+# Define the data to be encoded in the QR code
+data = json.dumps(data_example)
+compressed_data = zlib.compress(data.encode())
+print(len(compressed_data))
+# Add the data to the QR code object
+qr.add_data(compressed_data)
+
+# Make the QR code
+qr.make(fit=True)
+
+# Create an image from the QR code with a black fill color and white background
+img = qr.make_image(fill_color="black", back_color="white")
+
+# Save the QR code image
+img.save("qr_code.png")

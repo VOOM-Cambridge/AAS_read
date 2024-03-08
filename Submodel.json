@@ -1,0 +1,652 @@
+{
+  "semanticId": {
+    "keys": []
+  },
+  "qualifiers": [],
+  "hasDataSpecification": [],
+  "identification": {
+    "idType": "IRI",
+    "id": "urn:cam.ac.uk:ifm:sub:1:1:supplier1"
+  },
+  "idShort": "Supplier1",
+  "modelType": {
+    "name": "Submodel"
+  },
+  "kind": "Instance",
+  "submodelElements": [
+    {
+      "ordered": true,
+      "allowDuplicates": false,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "local": false,
+            "value": "\"\"",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "OrderDetails",
+      "category": "PARAMETER",
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "4 am monday",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "\"\"",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "timeofdispatch",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en-us",
+              "text": "\"\""
+            }
+          ]
+        },
+        {
+          "value": "part1; part2; part3",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "\"\"",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "parts",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en-us",
+              "text": "\"\""
+            }
+          ]
+        },
+        {
+          "value": "\"67\"",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "\"\"",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "quantityofparts",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en-us",
+              "text": "\"\""
+            }
+          ]
+        }
+      ],
+      "kind": "Template",
+      "descriptions": [
+        {
+          "language": "en-us",
+          "text": "\"\""
+        }
+      ]
+    },
+    {
+      "ordered": true,
+      "allowDuplicates": false,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "local": false,
+            "value": "\"\"",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "SupplierDetails",
+      "category": "PARAMETER",
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "IfM Lab1",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "\"\"",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Name",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en-us",
+              "text": "Company Name"
+            }
+          ]
+        },
+        {
+          "value": "Alan Reece Building, 17 Charles Babbage Rd, Cambridge CB3 0FS",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "\"\"",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Address",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en-us",
+              "text": "Adress of the company"
+            }
+          ]
+        },
+        {
+          "value": "sjb351@cam.ac.uk",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "\"\"",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "CompanyContactEmail",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en-us",
+              "text": "Cmpnay contact person name"
+            }
+          ]
+        }
+      ],
+      "kind": "Template",
+      "descriptions": [
+        {
+          "language": "en-us",
+          "text": "Details of the supplier"
+        }
+      ]
+    },
+    {
+      "value": "\"56\"",
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "local": false,
+            "value": "\"\"",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "TotalEnergy",
+      "modelType": {
+        "name": "Property"
+      },
+      "valueType": {
+        "dataObjectType": {
+          "name": "string"
+        }
+      },
+      "kind": "Instance",
+      "descriptions": [
+        {
+          "language": "en-us",
+          "text": "Energy used per order"
+        }
+      ]
+    },
+    {
+      "ordered": true,
+      "allowDuplicates": false,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "local": false,
+            "value": "\"\"",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "TotalMaterial",
+      "category": "PARAMETER",
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "\"34\"",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "\"\"",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Material1",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en-us",
+              "text": "\"\""
+            }
+          ]
+        },
+        {
+          "value": "\"56\"",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "\"\"",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Material2",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en-us",
+              "text": "\"\""
+            }
+          ]
+        }
+      ],
+      "kind": "Template",
+      "descriptions": [
+        {
+          "language": "en-us",
+          "text": "\"\""
+        }
+      ]
+    },
+    {
+      "ordered": true,
+      "allowDuplicates": false,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "local": false,
+            "value": "\"\"",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "Processes",
+      "category": "PARAMETER",
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "3d printing",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "\"\"",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Process1",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en-us",
+              "text": "process used in making of part"
+            }
+          ]
+        }
+      ],
+      "kind": "Template",
+      "descriptions": [
+        {
+          "language": "en-us",
+          "text": "Process used for making the part"
+        }
+      ]
+    },
+    {
+      "ordered": true,
+      "allowDuplicates": false,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "local": false,
+            "value": "\"\"",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "part1",
+      "category": "PARAMETER",
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "\"45\"",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "\"\"",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Energy",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en-us",
+              "text": "\"\""
+            }
+          ]
+        },
+        {
+          "value": "\"23\"",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "\"\"",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Material",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en-us",
+              "text": "\"\""
+            }
+          ]
+        }
+      ],
+      "kind": "Template",
+      "descriptions": [
+        {
+          "language": "en-us",
+          "text": "\"\""
+        }
+      ]
+    },
+    {
+      "ordered": true,
+      "allowDuplicates": false,
+      "semanticId": {
+        "keys": [
+          {
+            "type": "GlobalReference",
+            "local": false,
+            "value": "\"\"",
+            "index": 0,
+            "idType": "IRI"
+          }
+        ]
+      },
+      "constraints": [],
+      "hasDataSpecification": [],
+      "idShort": "part2",
+      "category": "PARAMETER",
+      "modelType": {
+        "name": "SubmodelElementCollection"
+      },
+      "value": [
+        {
+          "value": "\"78\"",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "\"\"",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Energy",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en-us",
+              "text": "\"\""
+            }
+          ]
+        },
+        {
+          "value": "\"70\"",
+          "semanticId": {
+            "keys": [
+              {
+                "type": "GlobalReference",
+                "local": false,
+                "value": "\"\"",
+                "index": 0,
+                "idType": "IRI"
+              }
+            ]
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "Material",
+          "modelType": {
+            "name": "Property"
+          },
+          "valueType": {
+            "dataObjectType": {
+              "name": "string"
+            }
+          },
+          "kind": "Instance",
+          "descriptions": [
+            {
+              "language": "en-us",
+              "text": "\"\""
+            }
+          ]
+        }
+      ],
+      "kind": "Template",
+      "descriptions": [
+        {
+          "language": "en-us",
+          "text": "\"\""
+        }
+      ]
+    }
+  ]
+}
